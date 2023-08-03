@@ -1,0 +1,166 @@
+body {
+   width: 1798px;
+   height: 1104px;
+   background-color: #8A51FC;
+   font-family: 'Roboto', sans-serif;
+}
+
+body,
+main {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 10px;
+}
+
+main {
+   margin-top: 120px;
+}
+
+header {
+   width: 220px;
+   height: 220px;
+   margin-bottom: 10px;
+   display: flex;
+   justify-content: space-around;
+}
+
+div {
+   width: 375px;
+   height: 712px;
+   border-radius: 20px;
+   background: #F4F4F4;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+label {
+   color: #777;
+   font-family: Roboto;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 18px;
+
+}
+
+b {
+   color: #777;
+   font-family: Roboto;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 18px;
+}
+
+select {
+   width: 327px;
+   height: 48px;
+   flex-shrink: 0;
+   border-radius: 4px;
+   border: 1px solid #BBB;
+   background: #FFF;
+   margin-top: 5px;
+   color: #555;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 18px;
+   padding-left: 10px;
+   -webkit-appearance: none;
+   -moz-appearance: none;
+}
+
+input {
+   width: 315px;
+   height: 48px;
+   flex-shrink: 0;
+   border-radius: 4px;
+   border: 1px solid #BBB;
+   background: #FFF;
+   box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.15);
+   margin-top: 5px;
+   color: #555;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 18px;
+   padding-left: 10px;
+}
+
+#converter {
+   margin-top: -90px;
+   margin-left: 24px;
+}
+
+#conversor {
+   margin-top: 15px;
+   margin-left: 24px;
+}
+
+#valor {
+   margin-top: 15px;
+   margin-left: 24px;
+   margin-bottom: 23px;
+
+}
+
+button {
+   width: 327px;
+   height: 48px;
+   flex-shrink: 0;
+   border-radius: 5px;
+   background: #772FD3;
+   color: #FFF;
+   font-family: Roboto;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 18px;
+}
+
+footer {
+   width: 375px;
+   height: 712px;
+   border-radius: 20px;
+   background: #F4F4F4;
+   width: 327px;
+   height: 276px;
+   flex-shrink: 0;
+   border-radius: 20px;
+   border: 1px solid #772FD3;
+   margin-top: 30px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: flex-start;
+}
+
+#realImage,
+#ImagemDolar,
+#vetor {
+   width: 44px;
+   height: 44px;
+   flex-shrink: 0;
+   margin: 0;
+   margin-bottom: 5px;
+}
+
+#realImage {
+   margin-top: 5px;
+}
+
+#vetor {
+   height: 55px;
+}
+
+h2 {
+   margin: 0;
+   margin-bottom: 5px;
+}
+
+p {
+   margin: 0;
+   margin-bottom: 3px;
+}
